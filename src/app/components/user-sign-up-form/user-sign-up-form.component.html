@@ -1,0 +1,15 @@
+<div class="container">
+    <form class="form" (ngSubmit)="signIn(firstName, lastName)">
+        <img class="logo" src="../../../assets/dr-stone.jpg" alt="insert sweet logo here" />
+        <div class="sign-in">Sign Up</div>
+        <div class="sub-text">to acquire awesome bots</div>
+        <input name="firstName" placeholder="First Name" [(ngModel)]="firstName" type="text" />
+        <input name="lastName" placeholder="
+        Last Name" [(ngModel)]="lastName" type="text" />
+        <div class="buttons">
+            <button type="submit" class="button cts">
+                Sign Up
+            </button>
+        </div>
+    </form>
+</div>

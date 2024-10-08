@@ -1,0 +1,8 @@
+.app-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* 100% of the viewport height */
+    width: 100vw;            /* 100% of the viewport width */
+    background-image: linear-gradient(90deg, #b720a3 0%, #b344d8 35%, #e575f8 100%);
+  }

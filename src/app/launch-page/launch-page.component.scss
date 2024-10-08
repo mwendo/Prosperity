@@ -1,0 +1,33 @@
+.launchPageContainer {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the start (top) */
+    height: 100%; /* Make the container take up the full height */
+    width: 100%; /* Make the container take up the full width */
+    padding: 20px; /* Optional padding */
+    background-color: purple; /* Optional background color for visibility */
+}
+
+.redirectHome {
+    // display: flex;
+    // justify-content: space-between; /* Equal space between items */
+    margin-bottom: auto; /* Pushes the bottom buttons to the bottom */
+}
+
+.launchOptions {
+    // display: flex;
+    // justify-content: space-between; /* Equal space between items */
+    // flex-grow: 1; /* Make the bottom row grow to fill the remaining space */
+    display: flex;
+    justify-content: space-between; /* Space between bottom buttons */
+    margin-top: 50px; /* Adjust this value to move buttons down further */
+}
+  
+button {
+    flex: 1; /* Equal width for buttons */
+    margin: 5px; /* Space between buttons */
+    padding: 10px; /* Padding for appearance */
+    text-align: center;
+}
+  
+  
