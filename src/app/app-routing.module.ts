@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProsperityButtonComponent } from './components/prosperity-button/prosperity-button.component';
-import { LaunchPageComponent } from './launch-page/launch-page.component';
+import { LaunchPageComponent } from './components/launch-page/launch-page.component';
 import { UserFormComponent } from './components/user-sign-up-form/user-sign-up-form.component';
 
 const routes: Routes = [
